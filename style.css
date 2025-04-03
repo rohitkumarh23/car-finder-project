@@ -79,6 +79,12 @@ footer:hover{
   border-radius: 7px;
 }
 
+.svg-card2{
+  display: flex;
+ 
+}
+
+
 @media (max-width: 414px) {
   .values p {
     width: 70vw;
@@ -107,6 +113,20 @@ footer:hover{
     font-size: 8vw;
     text-align: center;
     font-weight: 500;
+  }
+
+  .svg-card{
+    top: 0;
+   margin-left: 20px;
+  }
+
+  .svg-card2{
+   justify-content: space-evenly;
+   margin-right: 20px;
+  }
+
+  .market{
+   margin-bottom: 20px;
   }
   
 }
