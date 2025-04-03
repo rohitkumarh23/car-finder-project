@@ -84,7 +84,7 @@ footer:hover{
  
 }
 
-.latestcar{
+#latestcar2{
   width: 18rem;
 }
 
@@ -133,8 +133,7 @@ footer:hover{
    margin-bottom: 20px;
   }
   #latestcar2{
-   background-color: firebrick;
-   margin-right: 30px;
+    margin-left: 50px;
   }
   
 }
