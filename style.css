@@ -84,6 +84,10 @@ footer:hover{
  
 }
 
+.latestcar{
+  width: 18rem;
+}
+
 
 @media (max-width: 414px) {
   .values p {
@@ -127,6 +131,10 @@ footer:hover{
 
   .market{
    margin-bottom: 20px;
+  }
+  #latestcar2{
+   background-color: firebrick;
+   margin-right: 30px;
   }
   
 }
