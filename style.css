@@ -1,13 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-html,
 body {
   width: 100%;
   height: 100%;
-  background-color: rgba(206, 206, 206, 0.233);
 }
 
 .expand-btn {
@@ -88,6 +87,60 @@ footer:hover{
   width: 18rem;
 }
 
+video{
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+.modelscar{
+  padding: 10px; 
+  justify-content: center;
+   margin: 10px;
+    border: 0px solid rgba(121, 121, 121, 0.829);
+    border-radius: 10px;
+     height: 250px; 
+      text-align: center; 
+      background-color: #29292B; 
+      color: #BEC9C3;
+
+}
+.videoclass{
+  text-align: start;
+}
+
+.logos{
+ display: flex;
+ gap: 5px;
+}
+.logos1{
+ display: flex;
+ margin-left: 60px;
+ gap: 3px;
+ 
+}
+.aboutvideo{
+  border-radius: 15px;
+}
+
+.videotext{
+  position: absolute;
+  bottom: 30px;
+   left:40px ;
+   color:white;
+}
+.videotext2{
+  position: absolute;
+  bottom: 40px;
+   color:red;
+}
+.clientsphoto{
+position: absolute;
+color: white;
+left: 69px;
+ bottom: 29px;
+}
+
 
 @media (max-width: 414px) {
   .values p {
@@ -136,6 +189,53 @@ footer:hover{
     background-color: white;
     margin-left: 50px;
   }
-  
+  .modelscar{
+    height: 285px;
+  }
+  .top{
+
+    text-align: center;
+  }
+
+  .videoclass{
+    margin-bottom: 200px;
+  }
+  .logos{
+    margin-left: 89px;
+  }
+  .logos1{
+    margin-left: 91px;
+    gap: 3px;
+  }
+  .aboutvideo{
+    margin-top: 30px;
+    height: 50vh;
+    width: 93vw;
+  }
+  .videotext{
+    left: 10px;
+    top: 122px;
+    font-size: 12px;
+  }
+  .videotext h2{
+    font-size: 15px;
+    bottom:2px;
+  }
+  .videotext2 button{
+    top: 35px;
+   right: -200px;
+  }
+  .clientsphoto{
+    position: absolute;
+    color: white;
+    left: 20px;
+     bottom: 23px;
+    }
+    .timing{
+      display: none;
+    }
+    #timebtn{
+      justify-content: center;
+    }
 }
 

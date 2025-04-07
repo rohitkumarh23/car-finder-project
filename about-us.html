@@ -127,8 +127,6 @@
   </section>
   <!-- first image end -->
 
-  
-
    <!-- values image start -->
    <section>
     <div class="container mt-5">
@@ -246,7 +244,7 @@
   
                       <div class="col-lg-6 col-sm-6">
                           <div class="mt-3">
-                              <button class="btn expand-btn" >
+                              <button class="btn expand-btn" id="timebtn" >
                                   <svg xmlns="http://www.w3.org/2000/svg" width="45" height="20" fill="currentColor" class="bi bi-geo-alt"
                                     viewBox="0 0 16 16">
                                     <path
@@ -257,7 +255,7 @@
                            </div>
                       </div>
                       <div class="col-lg-6 col-sm-6 px-3">
-                         <div>
+                         <div class="timing">
                           <span style="display: flex;" class="mt-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">  
                                 <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022zm2.004.45a7 7 0 0 0-.985-.299l.219-.976q.576.129 1.126.342zm1.37.71a7 7 0 0 0-.439-.27l.493-.87a8 8 0 0 1 .979.654l-.615.789a7 7 0 0 0-.418-.302zm1.834 1.79a7 7 0 0 0-.653-.796l.724-.69q.406.429.747.91zm.744 1.352a7 7 0 0 0-.214-.468l.893-.45a8 8 0 0 1 .45 1.088l-.95.313a7 7 0 0 0-.179-.483m.53 2.507a7 7 0 0 0-.1-1.025l.985-.17q.1.58.116 1.17zm-.131 1.538q.05-.254.081-.51l.993.123a8 8 0 0 1-.23 1.155l-.964-.267q.069-.247.12-.501m-.952 2.379q.276-.436.486-.908l.914.405q-.24.54-.555 1.038zm-.964 1.205q.183-.183.35-.378l.758.653a8 8 0 0 1-.401.432z"/>
@@ -278,35 +276,103 @@
    <!-- new customer end -->
 
      <!-- logos -->
-      <div class="container">
-        <div class="row text-center gap-4">
-          <div class="col-lg-3">
+     <section>
+      <div class="container mt-5 mb-5">
+        <div class="row text-center gap-4 ">
+          <div class="col-lg-3 mt-4 ">
             <div>
               <h4>Big companies trust Finder.</h4>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div>
-              <h4>Lorem ipsum dolor sit amet.</h4>
+          <div class="col-lg-2 col-sm-12 col-md-2 mt-4">
+            <div class="logos1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" color="grey" fill="currentColor" class="bi bi-globe-central-south-asia" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.48.48 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.7.7 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a1 1 0 0 0-.462-.04 7 7 0 0 1 2.45-2.027m-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.8.8 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.45.45 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282l.04-.001a7.003 7.003 0 0 1-12.658.905Z"/>
+              </svg>
+              <h4 style="color: rgba(128, 128, 128, 0.632); font-weight: 700;">LOGO</h4>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div>
-              <h4>Lorem ipsum dolor sit amet.</h4>
+          <div class="col-lg-2 col-sm-12 col-md-2 mt-4">
+            <div class="logos">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" color="grey" fill="currentColor" class="bi bi-amd" viewBox="0 0 16 16">
+                <path d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"/>
+              </svg>
+              <h4 style="color: rgba(128, 128, 128, 0.632); font-weight: 700;font-size: 23px;">LOGOIPSUM</h4>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div>
-              <h4>Lorem ipsum dolor sit amet.</h4>
+          <div class="col-lg-2 col-sm-12 col-md-2 mt-4">
+            <div class="logos">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" color="grey" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+                <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1z"/>
+                <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+              </svg>
+              <h4 style="color: rgba(128, 128, 128, 0.632); font-weight: 700;font-size: 23px;">LOGOISPUM</h4>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div>
-              <h4>Lorem ipsum dolor sit amet.</h4>
+          <div class="col-lg-2 col-sm-12 col-md-2 mt-4 mb-3">
+            <div class="logos">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" color="grey" fill="currentColor" class="bi bi-alipay" viewBox="0 0 16 16">
+                <path d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0"/>
+                <path d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z"/>
+              </svg>
+              <h4 style="color: rgba(128, 128, 128, 0.632); font-weight: 700;font-size: 23px;">LOGOIPSUM</h4>
             </div>
           </div>
         </div>
       </div>
+     </section>
+      <!-- logos end -->
+
+      <!-- video -->
+     <section>
+      <div class="container mt-5">
+        <div class="row">
+          
+          <div class="col-lg-8 col-sm-12 col-md-8">
+            <div style="position: relative;">
+              <video   autoplay loop muted playsinline  width="100%">
+                <source  src="videos/white car.mp4" type="video/mp4" width="100%">
+              </video> 
+             <div class="row">
+              <div class="col-lg-9">
+                <div class="videotext">
+                  <h2>Connect with potential clients</h2>
+                  <p>Respond prompty to inquiries and schedule to turn leads into <br> satisfied customers.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="videotext2">
+                  <button class="btn expand-btn" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="currentColor" class="bi bi-geo-alt"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+             </div>    
+            </div>
+           
+          </div>
+          <div class="col-lg-4 col-sm-12 col-md-4">
+            <div style="position: relative;">
+              <img class="aboutvideo" src="images/home_hero_wide.jpg" alt="" height="479px" width="459px">
+              <div class="clientsphoto">
+                <h3>Monitor engagement</h3>
+                <p>Track and inquiries to see which properties <br>
+                 attract the most  interest.</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+       </div>
+     </section>
+     <!-- video end -->
+
+    
 
 
 
