@@ -168,6 +168,13 @@ left: 69px;
   border-radius: 90%;
 }
 
+.findertt{
+  text-align: center;
+}
+.customerimg{
+  width: 649px;
+}
+
 
 @media (max-width: 414px) {
   .values p {
@@ -279,11 +286,12 @@ left: 69px;
     }
     .customerimg{
       border-radius: 10px 10px 0px 0px;
-      width: 368px;
+      width: 359px;
+      
     }
     #customertext{
       margin-left: 11px;
-      width: 370px;
+      width: 359px;
       border-radius: 0px 0px 10px 10px ;
     }
 }
