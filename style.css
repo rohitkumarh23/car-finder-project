@@ -88,7 +88,7 @@ footer:hover{
 }
 
 video{
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
   width: 100%;
   display: block;
@@ -139,6 +139,33 @@ position: absolute;
 color: white;
 left: 69px;
  bottom: 29px;
+}
+.serviceheading{
+  font-size: 40px;
+  font-weight: 640;
+  color: rgba(0, 0, 0, 0.952);
+}
+.servicedt{
+  color: grey;
+}
+.customerimg{
+  border-radius: 10px 0px 0px 10px;
+}
+
+#customertext{
+  border-radius: 0px 10px 10px 0px ;
+  background-color: rgba(128, 128, 128, 0.187);
+}
+
+.finderimg{
+  border-radius: 12px;
+}
+.finderimg2{
+  border-radius: 12px;
+  height: 278px;
+}
+.serviceimg{
+  border-radius: 90%;
 }
 
 
@@ -236,6 +263,28 @@ left: 69px;
     }
     #timebtn{
       justify-content: center;
+    }
+    .serviceheading{
+      font-size: 5vw;
+      margin-left: 10px;
+      background: linear-gradient(to right,rgba(255, 166, 0, 0.804),rgba(255, 0, 0, 0.741) );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .serviceimg{
+      margin-left: 80px;
+    }
+    .servicedt{
+      font-size: 18px;
+    }
+    .customerimg{
+      border-radius: 10px 10px 0px 0px;
+      width: 368px;
+    }
+    #customertext{
+      margin-left: 11px;
+      width: 370px;
+      border-radius: 0px 0px 10px 10px ;
     }
 }
 
