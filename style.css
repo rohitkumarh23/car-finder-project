@@ -54,6 +54,16 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.top2 {
+  background: linear-gradient(to right bottom, black,grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top3 {
+  background: linear-gradient(to right bottom,orange,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 #hello {
   background-color: white;
@@ -175,6 +185,43 @@ left: 69px;
   width: 649px;
 }
 
+.servicep{
+  font-size: 17px;font-weight: bold;
+}
+
+.mymap{
+  filter: grayscale(100%) invert(100%);
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+.contactimg{
+  width: 100%;
+  height: 730px;
+  position: relative;
+}
+.contact1{
+  position: absolute;
+  left: 13%;
+  bottom: 20%;
+  color: white;
+}
+.contact1 h1{
+  font-size: 88px;
+  font-family:'Orbitron',sans-serif;
+}
+.contactc{
+  position: relative;
+}
+.faq h5{ 
+   color: grey;
+   font-weight: bold;
+   font-size: 15px;
+}
+.faq h5:hover{ 
+   color: black;
+   cursor: pointer;
+}
+
 
 @media (max-width: 414px) {
   .values p {
@@ -282,6 +329,7 @@ left: 69px;
       margin-left: 80px;
     }
     .servicedt{
+      margin-left: 29px;
       font-size: 18px;
     }
     .customerimg{
@@ -293,6 +341,15 @@ left: 69px;
       margin-left: 11px;
       width: 359px;
       border-radius: 0px 0px 10px 10px ;
+    }
+    .top3{
+      margin-left: 30px;
+    }
+    .servicep{
+      margin-left: 29px;
+    }
+    .servicenum{
+      margin-left: 29px;
     }
 }
 
