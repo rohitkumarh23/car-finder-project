@@ -221,7 +221,41 @@ left: 69px;
    color: black;
    cursor: pointer;
 }
+.message{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   width: 430px;
+   border-radius: 12px;
+}
 
+.newzp{
+  color: grey;
+}
+#g{
+  color: grey;
+}
+
+.signtext{
+  margin-top: 120px;
+}
+
+.signimg{
+  border-radius: 16px;
+  width: 850px;
+  height: 750px;
+}
+
+.signform{
+   width: 450px;
+}
+
+.united{
+  margin-left: 100px;
+  color: grey;
+  font-family:'Orbitron',sans-serif;
+}
+.unitedimg{
+  margin-left: 220px;
+}
 
 @media (max-width: 414px) {
   .values p {
@@ -342,14 +376,73 @@ left: 69px;
       width: 359px;
       border-radius: 0px 0px 10px 10px ;
     }
-    .top3{
-      margin-left: 30px;
-    }
     .servicep{
       margin-left: 29px;
     }
     .servicenum{
       margin-left: 29px;
+    }
+
+    .contactimg{
+       width: 390px;
+       height: 400px;
+    }
+    .contact1 h1{
+      font-size: 40px;   
+    }
+    .contact1{
+      bottom: 3px;
+    }
+
+    .offices{
+      margin-left: 40px;
+    }
+
+    .message{
+      width: 360px;
+    }
+
+    .msg{
+      margin-left: px;
+      margin-top: 20px;
+    }
+    #newz{
+      margin-left: 20px;
+    }
+    #newzh{
+      margin-left: 22px;
+    }
+    #germany{
+      margin-left: 22px;
+    }
+    .newzp{
+      margin-left: 26px;
+    }
+    .germany{
+      margin-left: 49px;
+    }
+    .imggermany{
+      margin-left: 20px;
+    }
+    .signimg{
+      display: none;
+    }
+    .signform{
+      width: 290px;
+    }
+    .signtext{
+      margin-top: 20px;
+    }
+
+    .signd{
+      margin-left: 15px;
+    }
+
+    .united{
+      display: none;
+    }
+    .unitedimg{
+      margin-left: 10px;
     }
 }
 
